@@ -6,7 +6,7 @@ Title: ECS 154B Lab 1, Spring 2020
 
 # ECS 154B Lab 1, Spring 2020
 
-**Due by 11:59 PM on , 2020.**
+**Due by 11:59 PM on April 7, 2020.**
 
 **Turn in via Gradescope**
 [See below for details.](#Submission)
