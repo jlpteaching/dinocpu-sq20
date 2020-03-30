@@ -1,0 +1,3 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mGlobalPredictorTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGlobal Branch predictor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match expectations for 2-bit saturating counter tests[0m[0m

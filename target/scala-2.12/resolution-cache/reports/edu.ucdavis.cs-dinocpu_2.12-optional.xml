@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="edu.ucdavis.cs"
+		module="dinocpu_2.12"
+		revision="0.5"
+		conf="optional"
+		confs="compile, runtime, test, provided, optional, testAll, grader, lab1, lab2, lab3, lab4, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
+		date="20200329063916"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

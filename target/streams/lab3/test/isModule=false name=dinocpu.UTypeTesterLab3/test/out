@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mUTypeTesterLab3:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelined CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run U-type instruction auipc0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run U-type instruction auipc2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run U-type instruction lui0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run U-type instruction lui1[0m[0m

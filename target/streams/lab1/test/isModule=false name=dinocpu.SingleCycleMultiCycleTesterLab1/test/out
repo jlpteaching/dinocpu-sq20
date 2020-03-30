@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSingleCycleMultiCycleTesterLab1:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type multi-cycle program addfwd[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type multi-cycle program swapxor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type multi-cycle program power2-512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type multi-cycle program power2-1234[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type multi-cycle program power2--65536[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type multi-cycle program oppsign-true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type multi-cycle program oppsign-false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type multi-cycle program rotR[0m[0m

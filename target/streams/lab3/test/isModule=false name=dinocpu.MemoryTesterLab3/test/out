@@ -1,0 +1,12 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mMemoryTesterLab3:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelined CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction lw1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction lb[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction lh[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction lbu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction lhu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction lb1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction lh1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction sw[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction sb[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run memory-type instruction sh[0m[0m

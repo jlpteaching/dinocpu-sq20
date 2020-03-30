@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mLocalPredictorRandomTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLocal branch predictory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match expectations for random 2-bit 8 entry tests[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLocal branch predictory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match expectations for random 1-bit 2 entry tests[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLocal branch predictory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match expectations for random 3-bit 256 entry tests[0m[0m

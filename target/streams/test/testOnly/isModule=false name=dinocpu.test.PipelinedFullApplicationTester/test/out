@@ -1,0 +1,8 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelinedFullApplicationTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelined CPU running full applications[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run multiply.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run median.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run qsort.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run rsort.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run towers.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run vvadd.riscv[0m[0m

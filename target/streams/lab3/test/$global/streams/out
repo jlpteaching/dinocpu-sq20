@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.ITypeTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.ITypeMultiCycleTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.JumpTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.ApplicationsTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.MemoryTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.BranchTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.RTypeMultiCycleTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.RTypeTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.UTypeTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.MemoryMultiCycleTesterLab3, org.scalatest.tools.Framework$$anon$1@38059bd3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 57 seconds, 556 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 75[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 10, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 75, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 75, Failed 0, Errors 0, Passed 75[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.RTypeTesterLab3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.ApplicationsTesterLab3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.MemoryMultiCycleTesterLab3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.ITypeTesterLab3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.RTypeMultiCycleTesterLab3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.UTypeTesterLab3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.JumpTesterLab3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.BranchTesterLab3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.ITypeMultiCycleTesterLab3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.MemoryTesterLab3[0m

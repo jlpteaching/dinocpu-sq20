@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRTypeMultiCycleTesterLab3:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelined CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run multi cycle R-type instruction addfwd[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run multi cycle R-type instruction swapxor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run multi cycle R-type instruction power2-512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run multi cycle R-type instruction power2-1234[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run multi cycle R-type instruction power2--65536[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run multi cycle R-type instruction oppsign-true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run multi cycle R-type instruction oppsign-false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run multi cycle R-type instruction rotR[0m[0m

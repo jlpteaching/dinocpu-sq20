@@ -1,0 +1,12 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mITypeTesterLab3:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelined CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction addi1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction slli[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction srai[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction srai-negative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction srli[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction andi[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction ori[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction xori[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction slti[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-type instruction sltiu[0m[0m

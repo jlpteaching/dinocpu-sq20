@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.ControlTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.ALUControlTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleBranchTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleITypeTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleStoreTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleApplicationsTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleJALRTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleUTypeTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleLoadTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleRTypeTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleLoadStoreTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SingleCycleJALTesterLab2, org.scalatest.tools.Framework$$anon$1@13c44034, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 33 seconds, 632 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 68[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 12, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 68, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 68, Failed 0, Errors 0, Passed 68[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleBranchTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.ControlTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleApplicationsTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleJALRTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleStoreTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleUTypeTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.ALUControlTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleJALTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleLoadStoreTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleLoadTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleRTypeTesterLab2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SingleCycleITypeTesterLab2[0m

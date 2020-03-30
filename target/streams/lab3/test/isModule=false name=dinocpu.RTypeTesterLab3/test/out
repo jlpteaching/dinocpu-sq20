@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRTypeTesterLab3:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelined CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction add1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction add2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction add0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction or[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction sub[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction and[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction xor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction slt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction slt1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction sltu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction sltu1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction sll[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction srl[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run R-type instruction sra[0m[0m

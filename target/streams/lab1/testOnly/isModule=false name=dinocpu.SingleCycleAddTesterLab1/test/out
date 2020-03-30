@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSingleCycleAddTesterLab1:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run add test add1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab1Test.scala:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run add test add2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab1Test.scala:91)[0m[0m

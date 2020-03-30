@@ -1,0 +1,33 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ALU|ALU>io_result",
+    "sources":[
+      "~ALU|ALU>io_operation",
+      "~ALU|ALU>io_inputx",
+      "~ALU|ALU>io_inputy"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/dinocpu.test.components.ALUTester1621150057"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/dinocpu.test.components.ALUTester1621150057"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"ALU"
+  }
+]

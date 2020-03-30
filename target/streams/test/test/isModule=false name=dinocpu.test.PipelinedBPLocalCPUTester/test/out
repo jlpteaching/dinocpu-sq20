@@ -1,0 +1,527 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelinedBPLocalCPUTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelined CPU with local branch predictor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch beq-False *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch beq-True *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bne-False *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bne-True *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch blt-False *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch blt-False-equal *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch blt-True *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch blt-False-signed *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch blt-True-signed *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bge-False *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bge-True *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bge-False-signed *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bge-True-signed *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bge-True-equal *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bltu-False *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bltu-True *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bgeu-False *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run branch bgeu-True *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run jump jal *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run jump jalr0 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run jump jalr1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run applications fibonacci *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run applications naturalsum *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run applications multiplier *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run applications divider *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.maskmode <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.address <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.imem.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memwrite <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.sext <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module PipelinedCPUBP]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.dmem.memread <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 9 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

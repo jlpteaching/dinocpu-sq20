@@ -1,0 +1,31 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~LocalPredictor|LocalPredictor>io_prediction",
+    "sources":[
+      "~LocalPredictor|LocalPredictor>io_pc"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/dinocpu.test.components.LocalPredictorTester1664387326"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/dinocpu.test.components.LocalPredictorTester1664387326"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"LocalPredictor"
+  }
+]
