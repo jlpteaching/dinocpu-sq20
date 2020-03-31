@@ -26,7 +26,6 @@ Title: ECS 154B Lab 1, Spring 2020
   * [Testing the rest of the instructions](#testing-the-rest-of-the-instructions)
 * [Part V: Moving on to multiple cycles](#part-v-moving-on-to-multiple-cycles)
   * [Testing](#testing)
-* [Part VI: Feedback](#part-vi-feedback)
 * [Grading](#grading)
 * [Submission](#submission)
   * [Code portion](#code-portion)
@@ -310,9 +309,6 @@ It's such a good idea that we're going to make it mandatory, and you'll need to 
 We've provided you with a [blank circuit diagram](./assignment-1-worksheet.pdf).
 Draw all of the wires and label which bits are on each wire.
 
-The second page of the diagram is a feedback form.
-An explanation about that is in the [Feedback section](#part-vi-feedback).
-
 We will be grading this diagram and looking for the following things:
 - The correct wires.
 - Every wire should contain its width in bits.
@@ -592,17 +588,6 @@ To run just one test, you can use the `-z` trick from above.
 dinocpu:sbt> testOnly dinocpu.SingleCycleMultiCycleTesterLab1 -- -z addfwd
 ```
 
-# Part VI: Feedback
-
-[The worksheet](assignment-1-worksheet.pdf) contains a short feedback form.
-This one of the first times we have used these assignments, so we are soliciting feedback to improve them for future quarters.
-You will submit this together with your completed circuit diagram.
-
-Filling out the feedback is worth 10% of your grade on the assignment.
-There are no wrong answers, so as long as you have completed the form, you will receive the points.
-(Note: The more detailed feedback you give, the better we can improve the assignments.)
-
-
 # Grading
 
 Grading will be done automatically on Gradescope.
@@ -610,13 +595,12 @@ See [the Submission section](#Submission) for more information on how to submit 
 
 |                    |     |
 |--------------------|-----|
-| ALU control        | 25% |
-| Diagram            | 25% |
-| Add                | 10% |
-| Add0               |  5% |
+| ALU control        | 30% |
+| Diagram            | 30% |
+| Add 0 Case         |  5% |
+| Other Add Cases    | 10% |
 | Other instructions | 15% |
 | Multiple cycles    | 10% |
-| Feedback           | 10% |
 
 # Submission
 
