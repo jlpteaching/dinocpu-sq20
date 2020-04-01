@@ -57,8 +57,8 @@ It's easiest to install it on Linux, but there are also directions for installin
 On Windows and MacOS, you will have to run a Linux virtual machine to work with the Singularity containers.
 **IMPORTANT: If you are using the installation directions for Windows or Mac, make sure to use the version 3.0 Vagrant box!**
 
-For Linux, I suggest using the provided packages, not building from source.
-Details are available [here](https://www.sylabs.io/guides/3.0/user-guide/installation.html#install-the-debian-ubuntu-package-using-apt).
+For Linux, you must build from source as we require at least version 3 of Singularity.
+Details are available [here](https://sylabs.io/guides/3.0/user-guide/installation.html#install-on-linux).
 **Be sure to use version 3 of Singularity, as it's the only version that supports the Singularity library!**
 
 For Windows and Mac, you can follow [these instructions from Sylabs](https://www.sylabs.io/guides/3.0/user-guide/installation.html#install-on-windows-or-mac), **but read below first**.
