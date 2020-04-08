@@ -1,6 +1,0 @@
-#Successful Tests
-#Mon Mar 30 01:59:01 UTC 2020
-dinocpu.test.PipelinedFullApplicationTester=1585486902974
-dinocpu.test.components.ControlTester=1585485346115
-dinocpu.ALUControlTesterLab1=1585533541462
-dinocpu.SingleCycleAdd0TesterLab1=1585533231157
