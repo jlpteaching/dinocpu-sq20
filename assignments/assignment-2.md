@@ -72,7 +72,7 @@ The simple in-order CPU design is based closely on the CPU model in Patterson an
 The DINO CPU code must be updated before you can run each lab.
 You should read up on [how to update your code](../documentation/updating-from-git.md) to get the assignment 2 template from GitHub.
 We have made the following changes:
-- The solution for cpu.scala for Assignment 1 is included in the [lab1-solution branch](https://github.com/jlpteaching/dinocpu-sq20/tree/lab1-solution).
+- The solution for cpu.scala for Assignment 1 is included in the [lab1-solution branch](https://github.com/jlpteaching/dinocpu-sq20/tree/lab1-solution) (will be posted on 4/11).
 - The control unit includes the control signals for the R-type instructions
 
 You can check out the master branch to get the template code for this lab.
