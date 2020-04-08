@@ -38,9 +38,31 @@ class SingleCycleCPU(implicit val conf: CPUConfig) extends BaseCPU {
   io.imem.address := pc
   io.imem.valid := true.B
 
+  pcPlusFour.io.inputx := pc
+  pcPlusFour.io.inputy := 4.U
+
   val instruction = io.imem.instruction
 
-  // Your code goes here
+  registers.io.readreg1 := instruction(19,15)
+  registers.io.readreg2 := instruction(24,20)
+
+  registers.io.writereg := instruction(11,7)
+  registers.io.wen      := (registers.io.writereg =/= 0.U)
+
+  // EXECUTE
+  aluControl.io.aluop  := 2.U
+  aluControl.io.itype  := 0.U
+  aluControl.io.funct7 := instruction(31,25)
+  aluControl.io.funct3 := instruction(14,12)
+
+  alu.io.operation := aluControl.io.operation
+
+  alu.io.inputx := registers.io.readdata1
+  alu.io.inputy := registers.io.readdata2
+
+  registers.io.writedata := alu.io.result
+
+  pc := pcPlusFour.io.result
 
   // Debug statements here
   printf(p"DBG: CYCLE=$cycleCount\n")
