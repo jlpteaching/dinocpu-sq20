@@ -10,16 +10,16 @@ class ControlUnitTester(c: Control) extends PeekPokeTester(c) {
   private val ctl = c
 
   val tests = List(
-    // Inputs,      aluop, toreg,  pcadd, itype, branch, alusrc, pcfromalu, regwrite, memwrite, memread, jump
-    ( "b0110011".U,     2,     0,      0,     0,      0,      0,         0,        1,        0,       0,    0), // R-type
-    ( "b0010011".U,     2,     0,      0,     1,      0,      1,         0,        1,        0,       0,    0), // I-type
-    ( "b0000011".U,     0,     3,      0,     0,      0,      1,         0,        1,        0,       1,    0), // Load
-    ( "b0100011".U,     0,     0,      0,     0,      0,      1,         0,        0,        1,       0,    0), // Store
-    ( "b1100011".U,     1,     0,      0,     0,      1,      0,         0,        0,        0,       0,    0), // beq
-    ( "b0110111".U,     0,     1,      0,     0,      0,      0,         0,        1,        0,       0,    0), // lui
-    ( "b0010111".U,     0,     0,      1,     0,      0,      1,         0,        1,        0,       0,    0), // auipc
-    ( "b1101111".U,     0,     2,      0,     0,      0,      0,         0,        1,        0,       0,    1), // jal
-    ( "b1100111".U,     0,     2,      0,     0,      0,      1,         1,        1,        0,       0,    1) // jalr
+    // Inputs,      aluop, toreg,  pcadd, itype, branch, alusrc, pcfromalu, regwrite, memwrite, memread, jump, resultselect
+    ( "b0110011".U,     2,     0,      0,     0,      0,      0,         0,        1,        0,       0,    0,           0), // R-type
+    ( "b0010011".U,     2,     0,      0,     1,      0,      1,         0,        1,        0,       0,    0,           0), // I-type
+    ( "b0000011".U,     0,     1,      0,     0,      0,      1,         0,        1,        0,       1,    0,           0), // Load
+    ( "b0100011".U,     0,     0,      0,     0,      0,      1,         0,        0,        1,       0,    0,           0), // Store
+    ( "b1100011".U,     1,     0,      0,     0,      1,      0,         0,        0,        0,       0,    0,           0), // beq
+    ( "b0110111".U,     0,     0,      0,     0,      0,      0,         0,        1,        0,       0,    0,           1), // lui
+    ( "b0010111".U,     0,     0,      1,     0,      0,      1,         0,        1,        0,       0,    0,           0), // auipc
+    ( "b1101111".U,     0,     0,      0,     0,      0,      0,         0,        1,        0,       0,    1,           2), // jal
+    ( "b1100111".U,     0,     0,      0,     0,      0,      1,         1,        1,        0,       0,    1,           2) // jalr
 
   )
                       
@@ -33,6 +33,7 @@ class ControlUnitTester(c: Control) extends PeekPokeTester(c) {
     expect(ctl.io.memwrite, t._10)
     expect(ctl.io.regwrite, t._9)
     expect(ctl.io.toreg, t._3)
+    expect(ctl.io.resultselect, t._13)
     expect(ctl.io.alusrc, t._7)
     expect(ctl.io.pcadd, t._4)
     expect(ctl.io.itype, t._5)
