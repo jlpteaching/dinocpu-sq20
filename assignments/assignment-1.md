@@ -406,11 +406,12 @@ file loaded in 0.177122564 seconds, 548 symbols, 531 statements
 [info] SingleCycleAddTesterLab1:
 [info] Single Cycle CPU
 [info] - should run add test add1
+[info] - should run add test add2
 [info] ScalaTest
 [info] Run completed in 3 seconds, 897 milliseconds.
-[info] Total number of tests run: 1
+[info] Total number of tests run: 2
 [info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] Tests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [info] Passed: Total 1, Failed 0, Errors 0, Passed 1
 [success] Total time: 6 s, completed Jan 8, 2020 1:26:31 AM
