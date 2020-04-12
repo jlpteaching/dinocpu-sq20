@@ -29,7 +29,6 @@ class ForwardingUnit extends Module {
     val rs2     = Input(UInt(5.W))
     val exmemrd = Input(UInt(5.W))
     val exmemrw = Input(Bool())
-    val exmembypass = Input(Bool())
     val memwbrd = Input(UInt(5.W))
     val memwbrw = Input(Bool())
 

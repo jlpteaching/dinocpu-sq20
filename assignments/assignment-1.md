@@ -329,7 +329,7 @@ For this assignment, you only need to add the hardware to implement the R-type i
 You only need to implement the *R-type* instructions, not all RISC-V instructions, on this lab assignment.
 
 **Hint 2**: The control unit as provided is *completely empty* and has `false` or 0 on every output.
-*You do not need to use the control unit for this assignment!*
+*You do not need to use the control unit for this lab assignment!*
 
 # Part III: Implement the ADD instruction
 
@@ -356,7 +356,7 @@ This creates a wire from the PC to the instruction memory.
 
 ![PC to inst mem](pc-to-imem.svg)
 
-You should fill in the other wires (and instruction subsets) that are required to implement the `add` RISC-V instruction.
+You should fill in the other wires (and instruction subsets) that are required to implement the `add` RISC-V instruction for R-type only.
 We will be talking in detail about RISC-V instructions and how to design a RISC-V processor during the second week's lectures, as shown on the [schedule](https://github.com/jlpteaching/ECS154B/blob/master/syllabus/schedule.csv).
 
 **Important**: You will not need to modify anything below the `Object to make it easier to print information about the CPU` line.
@@ -406,11 +406,12 @@ file loaded in 0.177122564 seconds, 548 symbols, 531 statements
 [info] SingleCycleAddTesterLab1:
 [info] Single Cycle CPU
 [info] - should run add test add1
+[info] - should run add test add2
 [info] ScalaTest
 [info] Run completed in 3 seconds, 897 milliseconds.
-[info] Total number of tests run: 1
+[info] Total number of tests run: 2
 [info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] Tests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [info] Passed: Total 1, Failed 0, Errors 0, Passed 1
 [success] Total time: 6 s, completed Jan 8, 2020 1:26:31 AM
