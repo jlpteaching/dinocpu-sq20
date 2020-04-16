@@ -56,7 +56,7 @@ class SingleCycleITypeTesterLab2 extends CPUFlatSpec {
     }
   }
 
-  val tests = InstTests.tests("itype")
+  val tests = InstTests.tests("itype") ++ InstTests.tests("itypeMultiCycle")
   for (test <- tests) {
     "Single Cycle CPU" should s"run I-Type instruction ${test.binary}${test.extraName}" in {
       CPUTesterDriver(test, "single-cycle") should be(true)
@@ -102,7 +102,7 @@ class SingleCycleLoadTesterLab2 extends CPUFlatSpec {
 */
 class SingleCycleUTypeTesterLab2 extends CPUFlatSpec {
 
-  val tests = InstTests.tests("utype")
+  val tests = InstTests.tests("utype") ++ InstTests.tests("utypeMultiCycle")
   for (test <- tests) {
   "Single Cycle CPU" should s"run auipc/lui instruction test ${test.binary}${test.extraName}" in {
     CPUTesterDriver(test, "single-cycle") should be(true)
