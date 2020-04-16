@@ -18,7 +18,7 @@ Title: ECS 154B Lab 1, Spring 2020
   * [Tools](#tools)
       * [Using the CSIF machines](#using-the-csif-machines)
 * [Part I: Implement the ALU Control](#part-i-implement-the-alu-control)
-      * [Testing your ALU control unit](#testing-your-alu-control-unit)
+  * [Testing your ALU control unit](#testing-your-alu-control-unit)
 * [Part II: Draw a diagram for implementing R-type instructions](#part-ii-draw-a-diagram-for-implementing-r-type-instructions)
 * [Part III: Implement the ADD instruction](#part-iii-implement-the-add-instruction)
   * [Testing your ADD instruction](#testing-your-add-instruction)
