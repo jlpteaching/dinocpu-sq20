@@ -10,7 +10,7 @@ import chisel3.util.{BitPat, ListLookup}
  *
  * Input: opcode:     Opcode from instruction
  *
- * Output: branch        true if branch or jump and link (jal). update PC with immediate
+ * Output: branch        True if branch instruction, update PC with immediate
  * Output: pcfromalu     Use the pc from the ALU, not pc+4 or pc+imm
  * Output: jump          True if we want to update the PC with pc+imm regardless of the ALU result
  * Output: memread       true if we should read from memory
