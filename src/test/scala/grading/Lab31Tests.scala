@@ -15,7 +15,7 @@ import org.junit.runner.RunWith
 class Lab31Grader extends JUnitSuite {
 
   @Test
-  @GradedTest(name="R-type instructions", max_score=13)
+  @GradedTest(name="R-type instructions", max_score=16)
   def verifyRtype() {
     // Capture all of the console output from the test
     val stream = new java.io.ByteArrayOutputStream()
@@ -40,7 +40,7 @@ class Lab31Grader extends JUnitSuite {
   }
 
   @Test
-  @GradedTest(name="I-type instructions", max_score=13)
+  @GradedTest(name="I-type instructions", max_score=16)
   def verifyItype() {
     // Capture all of the console output from the test
     val stream = new java.io.ByteArrayOutputStream()
@@ -65,7 +65,7 @@ class Lab31Grader extends JUnitSuite {
   }
 
   @Test
-  @GradedTest(name="U-type instructions", max_score=12)
+  @GradedTest(name="U-type instructions", max_score=14)
   def verifyUtype() {
     // Capture all of the console output from the test
     val stream = new java.io.ByteArrayOutputStream()
@@ -90,7 +90,7 @@ class Lab31Grader extends JUnitSuite {
   }
 
   @Test
-  @GradedTest(name="Memory instructions", max_score=12)
+  @GradedTest(name="Memory instructions", max_score=14)
   def verifyMemorytype() {
     // Capture all of the console output from the test
     val stream = new java.io.ByteArrayOutputStream()
