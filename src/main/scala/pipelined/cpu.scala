@@ -125,7 +125,7 @@ class PipelinedCPU(implicit val conf: CPUConfig) extends BaseCPU {
   // Forward declaration of wires that connect different stages
 
   // From memory back to fetch. Since we don't decide whether to take a branch or not until the memory stage.
-  val next_pc      = Wire(UInt())
+  val next_pc      = Wire(UInt(32.W))
   next_pc         := DontCare     // Remove when connected
 
   val write_data = Wire(UInt(32.W))
