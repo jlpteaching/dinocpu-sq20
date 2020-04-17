@@ -376,7 +376,7 @@ There are only three remaining steps!
 
 Again, section 4.8 of Patterson and Hennessy will be helpful here.
 
-After this, you can remove the `hazard.io := DontCare`line from the top of the file.
+After this, you can remove the `hazard.io := DontCare` line from the top of the file.
 
 ## Testing your hazard detection unit
 
