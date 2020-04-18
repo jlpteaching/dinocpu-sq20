@@ -18,7 +18,7 @@ import chisel3.util.{BitPat, ListLookup}
  * Output: regwrite      true if writing to the register file
  * Output: toreg         0 for result from execute, 1 for data from memory
  * Output: resultselect  00 for result from alu, 01 for immediate, 10 for pc+4
- * Output: alusrc        source for the second ALU input (0 is readdata2 and 1 is immediate)
+ * Output: alusrc        source for the second ALU input (false is readdata2 and true is immediate)
  * Output: pcadd         Use PC as the input to the ALU
  * Output: itype         True if we're working on an itype instruction
  * Output: aluop         00 for ld/st, 10 for R-type, 01 for branch
@@ -49,7 +49,7 @@ class Control extends Module {
 
   val signals =
     ListLookup(io.opcode,
-      /*default*/           List(false.B, false.B,   false.B, false.B,   false.B,  false.B,  0.U,   false.B,      false.B, false.B, false.B, 0.U,   false.B),
+      /*default*/           List(false.B, false.B,   false.B, false.B,   false.B,  false.B,  0.U,   0.B,      false.B, false.B, false.B, 0.U,   false.B),
       Array(              /*     branch,  pcfromalu, jump,    memread,   memwrite, regwrite, toreg, resultselect, alusrc,  pcadd,   itype,   aluop, validinst */
       // R-format
       BitPat("b0110011") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   0.U,          false.B, false.B, false.B, 2.U,   true.B),
