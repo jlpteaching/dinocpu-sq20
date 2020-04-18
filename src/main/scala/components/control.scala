@@ -49,7 +49,7 @@ class Control extends Module {
 
   val signals =
     ListLookup(io.opcode,
-      /*default*/           List(false.B, false.B,   false.B, false.B,   false.B,  false.B,  0.U,   0.B,      false.B, false.B, false.B, 0.U,   false.B),
+      /*default*/           List(false.B, false.B,   false.B, false.B,   false.B,  false.B,  0.U,   0.U,      false.B, false.B, false.B, 0.U,   false.B),
       Array(              /*     branch,  pcfromalu, jump,    memread,   memwrite, regwrite, toreg, resultselect, alusrc,  pcadd,   itype,   aluop, validinst */
       // R-format
       BitPat("b0110011") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   0.U,          false.B, false.B, false.B, 2.U,   true.B),
