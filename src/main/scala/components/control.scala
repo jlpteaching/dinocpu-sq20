@@ -10,7 +10,7 @@ import chisel3.util.{BitPat, ListLookup}
  *
  * Input: opcode:     Opcode from instruction
  *
- * Output: branch        True if branch instruction, update PC with immediate
+ * Output: branch        true if branch or jump and link (jal). update PC with immediate
  * Output: pcfromalu     Use the pc from the ALU, not pc+4 or pc+imm
  * Output: jump          True if we want to update the PC with pc+imm regardless of the ALU result
  * Output: memread       true if we should read from memory
@@ -18,7 +18,7 @@ import chisel3.util.{BitPat, ListLookup}
  * Output: regwrite      true if writing to the register file
  * Output: toreg         0 for result from execute, 1 for data from memory
  * Output: resultselect  00 for result from alu, 01 for immediate, 10 for pc+4
- * Output: alusrc        source for the second ALU input (false is readdata2 and true is immediate)
+ * Output: alusrc        source for the second ALU input (0 is readdata2 and 1 is immediate)
  * Output: pcadd         Use PC as the input to the ALU
  * Output: itype         True if we're working on an itype instruction
  * Output: aluop         00 for ld/st, 10 for R-type, 01 for branch
@@ -49,14 +49,26 @@ class Control extends Module {
 
   val signals =
     ListLookup(io.opcode,
-      /*default*/           List(false.B, false.B,   false.B, false.B,   false.B,  false.B,  0.U,   0.U,      false.B, false.B, false.B, 0.U,   false.B),
+      /*default*/           List(false.B, false.B,   false.B, false.B,   false.B,  false.B,  0.U,   false.B,      false.B, false.B, false.B, 0.U,   false.B),
       Array(              /*     branch,  pcfromalu, jump,    memread,   memwrite, regwrite, toreg, resultselect, alusrc,  pcadd,   itype,   aluop, validinst */
       // R-format
       BitPat("b0110011") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   0.U,          false.B, false.B, false.B, 2.U,   true.B),
-
-      // Your code goes here for Lab 2.
-      // Remember to make sure to have commas at the end of each line
-
+      // I-format
+      BitPat("b0010011") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   0.U,          true.B,  false.B, true.B,  2.U,   true.B),
+      // load
+      BitPat("b0000011") -> List(false.B, false.B,   false.B, true.B,    false.B,  true.B,   1.U,   0.U,          true.B,  false.B, false.B, 0.U,   true.B),
+      // store
+      BitPat("b0100011") -> List(false.B, false.B,   false.B, false.B,   true.B,   false.B,  0.U,   0.U,          true.B,  false.B, false.B, 0.U,   true.B),
+      // branch
+      BitPat("b1100011") -> List(true.B,  false.B,   false.B, false.B,   false.B,  false.B,  0.U,   0.U,          false.B, false.B, false.B, 1.U,   true.B),
+      // lui
+      BitPat("b0110111") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   1.U,          false.B, false.B, false.B, 0.U,   true.B),
+      // auipc
+      BitPat("b0010111") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   0.U,          true.B,  true.B,  false.B, 0.U,   true.B),
+      // jal
+      BitPat("b1101111") -> List(false.B, false.B,   true.B,  false.B,   false.B,  true.B,   0.U,   2.U,          false.B, false.B, false.B, 0.U,   true.B),
+      // jalr
+      BitPat("b1100111") -> List(false.B, true.B,    true.B,  false.B,   false.B,  true.B,   0.U,   2.U,          true.B,  false.B, false.B, 0.U,   true.B),
       ) // Array
     ) // ListLookup
 
