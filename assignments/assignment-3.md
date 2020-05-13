@@ -326,6 +326,8 @@ Specifically, Figure 4.53 will be helpful.
 Think about the conditions you want to forward and what you want to forward under each condition.
 `when/elsewhen/otherwise` statements will be useful here.
 
+Note: The entries for `ForwardA` and `ForwardB` in Figure 4.53 with values `10` and `01` should be *reversed* for our implementation (ex: `01` means the ALU operand is forwarded from the prior ALU result, NOT data memory)
+
 After this, you can remove the `forwarding.io := DontCare` from the top of the file.
 
 ## Testing your forwarding unit
