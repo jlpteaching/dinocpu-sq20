@@ -53,10 +53,22 @@ class Control extends Module {
       Array(              /*     branch,  pcfromalu, jump,    memread,   memwrite, regwrite, toreg, resultselect, alusrc,  pcadd,   itype,   aluop, validinst */
       // R-format
       BitPat("b0110011") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   0.U,          false.B, false.B, false.B, 2.U,   true.B),
-
-      // Your code goes here for Lab 2.
-      // Remember to make sure to have commas at the end of each line
-
+      // I-format
+      BitPat("b0010011") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   0.U,          true.B,  false.B, true.B,  2.U,   true.B),
+      // load
+      BitPat("b0000011") -> List(false.B, false.B,   false.B, true.B,    false.B,  true.B,   1.U,   0.U,          true.B,  false.B, false.B, 0.U,   true.B),
+      // store
+      BitPat("b0100011") -> List(false.B, false.B,   false.B, false.B,   true.B,   false.B,  0.U,   0.U,          true.B,  false.B, false.B, 0.U,   true.B),
+      // branch
+      BitPat("b1100011") -> List(true.B,  false.B,   false.B, false.B,   false.B,  false.B,  0.U,   0.U,          false.B, false.B, false.B, 1.U,   true.B),
+      // lui
+      BitPat("b0110111") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   1.U,          false.B, false.B, false.B, 0.U,   true.B),
+      // auipc
+      BitPat("b0010111") -> List(false.B, false.B,   false.B, false.B,   false.B,  true.B,   0.U,   0.U,          true.B,  true.B,  false.B, 0.U,   true.B),
+      // jal
+      BitPat("b1101111") -> List(false.B, false.B,   true.B,  false.B,   false.B,  true.B,   0.U,   2.U,          false.B, false.B, false.B, 0.U,   true.B),
+      // jalr
+      BitPat("b1100111") -> List(false.B, true.B,    true.B,  false.B,   false.B,  true.B,   0.U,   2.U,          true.B,  false.B, false.B, 0.U,   true.B),
       ) // Array
     ) // ListLookup
 

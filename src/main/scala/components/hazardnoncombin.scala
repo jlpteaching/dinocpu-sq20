@@ -11,7 +11,6 @@ import chisel3._
  * Input:  rs2, the second source register number
  * Input:  idex_memread, true if the instruction in the ID/EX register is going to read from memory
  * Input:  idex_rd, the register number of the destination register for the instruction in the ID/EX register
- * Input:  idex_good, if true, then instruction in decode is not garbage
  * Input:  exmem_taken, if true, then we are using the nextpc in the EX/MEM register, *not* pc+4.
  * Input:  imem_ready, if true, then the Instruction Memory is ready for another instruction 
  * Input:  imem_good, if true, then an instruction was successfully retrieved and can unstall CPU
@@ -38,7 +37,6 @@ class HazardUnitNonCombin extends Module {
     val rs2          = Input(UInt(5.W))
     val idex_memread = Input(Bool())
     val idex_rd      = Input(UInt(5.W))
-    val idex_good    = Input(Bool()) 
     val exmem_taken  = Input(Bool())
     val imem_ready   = Input(Bool())
     val imem_good    = Input(Bool())
@@ -70,5 +68,11 @@ class HazardUnitNonCombin extends Module {
   io.mem_wb_flush := false.B
   io.imem_valid   := true.B
 
-  // Your code goes here
+  // Load to use hazard.
+
+  // Jumps and Branches
+
+  // Instruction is invalid if imem not ready
+
+  // Stall all stages when dmem is busy
 }
