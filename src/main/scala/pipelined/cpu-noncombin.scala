@@ -132,6 +132,12 @@ class PipelinedNonCombinCPU(implicit val conf: CPUConfig) extends BaseCPU {
   // For wb back to other stages
   val write_data = Wire(UInt())
 
+  // For preventing multiple requests
+  val dmem_busy = RegInit(0.U)
+
+  // Checking if memory instruction in memory stage
+  val memInst = Wire(Bool())
+
   /////////////////////////////////////////////////////////////////////////////
   // FETCH STAGE
   /////////////////////////////////////////////////////////////////////////////
@@ -326,8 +332,21 @@ class PipelinedNonCombinCPU(implicit val conf: CPUConfig) extends BaseCPU {
   io.dmem.maskmode  := ex_mem_ctrl.io.data.mem_ctrl.maskmode
   io.dmem.sext      := ex_mem_ctrl.io.data.mem_ctrl.sext
 
+  memInst := io.dmem.memread || io.dmem.memwrite
+
+  // Only send request once
+  when (memInst && !io.dmem.good && (dmem_busy === false.B)) {
+    dmem_busy := true.B
+    io.dmem.valid := true.B
+  } .elsewhen (io.dmem.good) {
+    dmem_busy := false.B
+    io.dmem.valid := false.B
+  } .otherwise {
+    io.dmem.valid := false.B
+  }
+
   // Set dmem request as valid when a write or read is being requested
-  io.dmem.valid := (io.dmem.memread || io.dmem.memwrite)
+  // io.dmem.valid := (io.dmem.memread || io.dmem.memwrite)
 
   // Send next_pc back to the fetch stage
   next_pc := ex_mem.io.data.nextpc
@@ -344,7 +363,6 @@ class PipelinedNonCombinCPU(implicit val conf: CPUConfig) extends BaseCPU {
   mem_wb_ctrl.io.valid := !hazard.io.mem_wb_stall
 
   // Check that Data Memory is not busy
-  val memInst = ex_mem_ctrl.io.data.mem_ctrl.memread || ex_mem_ctrl.io.data.mem_ctrl.memwrite
   hazard.io.dmem_good := !memInst || io.dmem.good
 
   // Wire the MEM/WB register
