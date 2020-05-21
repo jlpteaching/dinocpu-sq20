@@ -324,7 +324,7 @@ Remember the following equations:
 
 ## Extra credit
 
-11. If this system had a cache which increased the dynamic power significantly, increased the static power slightly, but had a high hit ratio (e.g., 95% of memory accesses complete with a latency of 0 like the combinational memory case), which design would be most energy efficient 200 MHz, 1 GHz, or 2 GHz? Explain your reasoning.
+9. If this system had a cache which increased the dynamic power significantly, increased the static power slightly, but had a high hit ratio (e.g., 95% of memory accesses complete with a latency of 0 like the combinational memory case), which design would be most energy efficient 200 MHz, 1 GHz, or 2 GHz? Explain your reasoning.
 
 
 # Grading
