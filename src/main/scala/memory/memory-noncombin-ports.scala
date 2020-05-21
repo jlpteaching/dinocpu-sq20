@@ -45,6 +45,8 @@ class INonCombinMemPort extends ICombinMemPort {
  */
 class DNonCombinMemPort extends BaseDMemPort {
 
+  val dmem_busy = RegInit(false.B)
+
   // A register to hold intermediate data (e.g., write data, mask mode) while the request
   // is outstanding to memory.
   val outstandingReq = Reg (Valid (new OutstandingReq))
@@ -60,7 +62,7 @@ class DNonCombinMemPort extends BaseDMemPort {
   // it has been satisfied this cycle. Note: we cannot send a read until one cycle after the write has
   // been sent.
   val ready = !outstandingReq.valid || (io.bus.response.valid && (outstandingReq.valid && outstandingReq.bits.operation === MemoryOperation.Read))
-  when (io.pipeline.valid && (io.pipeline.memread || io.pipeline.memwrite) && ready) {
+  when (!dmem_busy && io.pipeline.valid && (io.pipeline.memread || io.pipeline.memwrite) && ready) {
     // Check if we aren't issuing both a read and write at the same time
     assert (! (io.pipeline.memread && io.pipeline.memwrite))
 
@@ -77,6 +79,7 @@ class DNonCombinMemPort extends BaseDMemPort {
       outstandingReq.bits.operation := Read
     }
     sending := true.B
+    dmem_busy := true.B
 
     // Program memory to perform a read. Always read since we must read before write.
     io.bus.request.bits.address   := io.pipeline.address
@@ -87,11 +90,14 @@ class DNonCombinMemPort extends BaseDMemPort {
     // no request coming in so don't send a request out
     io.bus.request.valid := false.B
     sending := false.B
+    dmem_busy := false.B
   }
 
   // Response path
   when (io.bus.response.valid) {
     assert(outstandingReq.valid)
+
+    dmem_busy := false.B // No longer processing
     when (outstandingReq.bits.operation === MemoryOperation.Write) {
       val writedata = Wire (UInt (32.W))
 
