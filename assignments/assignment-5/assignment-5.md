@@ -32,6 +32,8 @@ You will experiment with different memory access patterns and parallelism to fin
 **Make sure you run all of your tests on the CSIF machines**
 If you use your own machine, you may not get "reasonable" answers for the inputs sizes given below.
 
+**Before you begin this lab**, watching this (video)[https://video.ucdavis.edu/media/Lab+5+-+OpenMP+and+Blocking/0_rd4p9fdy] first might be helpful.
+
 ## Base matrix multiplication algorithm
 
 Below is a simple implementation of matrix multiplication given in [mm.cpp](mm.cpp).
@@ -65,7 +67,6 @@ Run the matrix multiplication with an input matrix size of 256. Which order give
 
 You can improve the cache behavior of matrix multiplication by using a blocked algorithm.
 In this algorithm, rather than streaming through all of the inputs, you operate on a *block* at a time.
-Details of this were covered [here](https://video.ucdavis.edu/media/Lab+5+-+OpenMP+and+Blocking/0_rd4p9fdy).
 
 Similar to loop interchange, there are multiple different ways you can choose to block the matrix multiplication algorithm.
 One example is shown below where `k` and `j` are blocked and `i` is streamed.
