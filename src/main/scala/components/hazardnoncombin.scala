@@ -69,10 +69,57 @@ class HazardUnitNonCombin extends Module {
   io.imem_valid   := true.B
 
   // Load to use hazard.
+  when (io.idex_memread &&
+        (io.idex_rd === io.rs1 || io.idex_rd === io.rs2)) {
+    io.pcfromtaken := false.B
+    io.pcstall     := true.B
+    io.if_id_stall := true.B
+    io.id_ex_flush := true.B
+  }
 
   // Jumps and Branches
+  when (io.exmem_taken) {
+    io.pcfromtaken  := true.B
+    io.pcstall      := false.B
+    io.ex_mem_flush := true.B
+    io.id_ex_flush  := true.B
+    io.if_id_flush  := true.B
+    io.imem_valid   := false.B
+  }
 
   // Instruction is invalid if imem not ready
+  when (!io.imem_ready) {
+    io.imem_valid := false.B
+
+    // Hold taken branch/jump in memory
+    // until imem returns inst to flush
+    when(io.exmem_taken) { 
+      io.ex_mem_stall := true.B
+      io.ex_mem_flush := false.B
+    }
+  }
+
+  // Ignore "bad" output from imem
+  when (!io.imem_good) {
+    io.if_id_flush := true.B
+
+    // Stall PC when not taking branch/jump
+    when (!io.exmem_taken) { 
+      io.pcstall := true.B 
+    }
+  }
 
   // Stall all stages when dmem is busy
+  when (!io.dmem_good) {
+    io.pcstall      := true.B
+    io.ex_mem_stall := true.B
+    io.ex_mem_flush := false.B
+    io.mem_wb_stall := true.B
+    io.mem_wb_flush := false.B
+    io.if_id_stall  := true.B
+    io.if_id_flush  := false.B
+    io.id_ex_stall  := true.B
+    io.id_ex_flush  := false.B
+    io.imem_valid   := false.B
+  }
 }
