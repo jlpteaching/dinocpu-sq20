@@ -32,7 +32,7 @@ You will experiment with different memory access patterns and parallelism to fin
 **Make sure you run all of your tests on the CSIF machines**
 If you use your own machine, you may not get "reasonable" answers for the inputs sizes given below.
 
-**Before you begin this lab**, watching this (video)[https://video.ucdavis.edu/media/Lab+5+-+OpenMP+and+Blocking/0_rd4p9fdy] first might be helpful.
+**Before you begin this lab**, watching this [video](https://video.ucdavis.edu/media/Lab+5+-+OpenMP+and+Blocking/0_rd4p9fdy) first might be helpful.
 
 ## Base matrix multiplication algorithm
 
