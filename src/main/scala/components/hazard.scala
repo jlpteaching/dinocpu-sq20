@@ -47,5 +47,21 @@ class HazardUnit extends Module {
   io.ex_mem_flush := false.B
   io.if_id_flush  := false.B
 
-  // Your code goes here
+  // Load to use hazard.
+  when (io.idex_memread &&
+        (io.idex_rd === io.rs1 || io.idex_rd === io.rs2)) {
+    io.pcfromtaken := false.B
+    io.pcstall     := true.B
+    io.if_id_stall := true.B
+    io.id_ex_flush := true.B
+  }
+
+  // branch flush
+  when (io.exmem_taken) {
+    io.pcfromtaken  := true.B // use the PC from mem stage
+    io.pcstall      := false.B // use the PC from mem stage
+    io.if_id_flush  := true.B
+    io.id_ex_flush  := true.B
+    io.ex_mem_flush := true.B
+  }
 }
