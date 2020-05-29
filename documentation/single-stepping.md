@@ -412,3 +412,11 @@ This will redirect the file `tmp` to the `stdin` of the single stepper, drop the
 ```
 singularity exec library://jlowepower/default/dinocpu sbt "runMain dinocpu.singlestep naturalsum single-cycle" < tmp | tail -n +39 | sed 's/Single stepper> //g' | grep -v ": 0" > output
 ```
+
+# A Note On Preserving "Unused" I/O
+
+The Chisel compiler can sometimes optimize away I/O if it believes it isn't being used to do anything.
+
+This results in the possibility of trying to use the single-stepper to monitor an I/O line to only to see it not appear at all!
+
+To prevent this during development, you can encapsulate the I/O line of interest in a `printf()` statement. This forces Chisel to keep the signal in question so when you fire up the single-stepper, you'll still be able to see it there.
