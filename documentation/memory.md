@@ -74,7 +74,7 @@ So far, the following configurations exist for these two parameters:
 *Memories:*
 
 - `combinational`: CPU will use a `DualPortedCombinMemory`, which supports combinational reads and 1 cycle sequential writes.
-- `non-combinational`: CPU will use a `DualPortedNonCombinMemory`, which supports sequential reads and sequential writes. This memory is further parameterized with the `memLatency` variable, sp11ecifying this memory's latency in number of cycles.
+- `non-combinational`: CPU will use a `DualPortedNonCombinMemory`, which supports sequential reads and sequential writes. This memory is further parameterized with the `memLatency` variable, specifying this memory's latency in number of cycles.
 
 Certain memory configurations require specific memory ports. For example, the combinational memory is designed to be used with combinational ports, while the non-combinational memory expects non-combinational ports or caches. 
 
