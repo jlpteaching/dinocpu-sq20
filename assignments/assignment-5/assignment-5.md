@@ -59,7 +59,7 @@ This algorithm is shown in the figure below.
 
 **Question 1: What order should the loops be in to get the best performance?**
 
-You can reorder the loops above (e.g., `for i`, `for j`, `for k`, as shown above, or they could be in another order like `for j`, `for i`, `for k`).
+You can reorder the loops above (e.g., `for i`, `for j`, `for k`, as shown above, could be in another order like `for j`, `for i`, `for k`).
 
 Run the matrix multiplication with an input matrix size of 256. Which order give the best performance. Why do you think this is? (Talk about *locality* in your answer.)
 
