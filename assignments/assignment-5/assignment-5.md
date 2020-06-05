@@ -87,7 +87,7 @@ Note: a `double` is 8 bytes. You can ignore the overhead of the pointers in the 
 - 128x128
 - 1024x1024
 
-**Question 2c: What is the *working set size* for these inputs (64x64, 128x128, and 1024x1024)?**
+**Question 2c: What is the *working set size* for these inputs (64x64, 128x128, and 1024x1024)?** I.e., how much data does this function `multiply()` touch? Note: it's the same for the blocked version and non-blocked version.
 
 **Question 2d: What is the size of the last-level cache of the CSIF machine?**
 
